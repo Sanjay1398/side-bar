@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  max-width: 900px;
+  margin: auto;
+}
+.navbar-visible {
+  background-color: black;
+  color: aliceblue;
+  width: 150px;
+  height: 100vh;
+}
+.nav-btn {
+  margin: 10px;
+  background: unset;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-left: 110px;
+  /* margin-left: 120px; */
+}
+.nav-list {
+  list-style-type: none;
+}
+li {
+  margin: 10px;
+}
+.menu-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-btn {
+  background: unset;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.nav-section {
+  display: grid;
+}
+/* .navigation {
+  display: none;
+} */
